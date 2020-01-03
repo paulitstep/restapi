@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'updates.apps.UpdatesConfig',
     'status.apps.StatusConfig',
     'accounts.apps.AccountsConfig',
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [

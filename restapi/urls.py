@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/tutorial/', include('snippets.api.urls', namespace='api-tutorial')),
     path('api/auth/', include('accounts.api.urls', namespace='api-auth')),
     path('api/user/', include('accounts.api.user.urls', namespace='api-user')),
     path('api/updates/', include('updates.api.urls')),
