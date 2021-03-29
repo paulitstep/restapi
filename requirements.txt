@@ -7,7 +7,7 @@ djangorestframework-jwt==1.11.0
 idna==2.8
 Markdown==3.1.1
 Pillow==6.2.1
-Pygments==2.5.2
+Pygments==2.7.4
 PyJWT==1.7.1
 pytz==2019.3
 requests==2.22.0
